@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/styles.scss';
 import reportWebVitals from './reportWebVitals';
+import GhostLight from './components/GhostLight';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GhostLight />
   </React.StrictMode>,
   document.getElementById('root')
 );

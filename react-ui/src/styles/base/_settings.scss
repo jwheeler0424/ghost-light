@@ -1,0 +1,25 @@
+// Breaks
+$mobile: 360px;
+$tabletSmall: 540px;
+$tablet: 760px;
+$tabletLarge: 1024px;
+$desktop: 1172px;
+
+// Container
+.content-container {
+    margin: 0 auto;
+    position: relative;
+    width: 92%;
+}
+
+// Spacing
+$xxxxs-size: 0.2rem;
+$xxxs-size: 0.3rem;
+$xxs-size: 0.6rem;
+$xs-size: 0.8rem;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.0rem;
+$xxl-size: 4.8rem;
+$xxxl-size: 5.6rem;
