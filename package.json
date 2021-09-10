@@ -1,0 +1,30 @@
+{
+  "name": "ghost-light",
+  "version": "0.1.0",
+  "description": "A perfomance training and entertainment web app",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd react-ui/ && yarn install && yarn run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwheeler0424/ghost-light.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "ghost light",
+    "performance",
+    "training",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}
